@@ -1,0 +1,22 @@
+{
+
+	"roy.lwc.target": {
+        "prefix": "roy.lwc.target",
+        "body": ["<targets>",
+		"<target>lightning__AppPage</target>",    
+		"<target>lightning__HomePage</target>",
+		"<target>lightning__RecordPage</target>", 
+	"<!--<target>lightning__UtilityBar</target>",
+		"<target>lightning__FlowScreen</target>", 
+		"<target>lightning__Tab</target>", 
+		"<target>lightning__Inbox</target>", 
+		"<target>lightningCommunity__Page</target>", 
+		"<target>lightningCommunity__Default</target>", 
+		"<target>lightningSnapin__ChatMessage</target> -->",
+	"</targets>",           
+            "$2"
+        ],
+        "description": "LWC Target will Specifies where the component can be added. (ROY-LWC CodeMate)"
+    }
+}
+

@@ -1,0 +1,34 @@
+{
+    "name": "lwccodemate",
+    "displayName": "LWC CodeMate",
+    "description": "Developer friendly extension helps to write all useable structures / code blocks of Lightning Web Component for HTML, JS and XML files.",
+    "version": "1.0.0",
+    "publisher": "arupkroy",
+    "icon": "https://github.com/forcearup/lwcCmate/blob/master/ROY-LWC%20CodeMate/images/extLogo.png?raw=true",
+    "engines": {
+        "vscode": "^1.39.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/xml.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/forcearup/lwcCmate.git"
+      }
+}
